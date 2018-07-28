@@ -33,7 +33,11 @@ having sum(pledges.amount) - projects.funding_goal > -1  "
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
-"Write your SQL query Here"
+"select users.name, pledges.amounts
+from users
+inner join pledges
+on users.id = pledges.user_id
+group by users.name"
 end
 
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
