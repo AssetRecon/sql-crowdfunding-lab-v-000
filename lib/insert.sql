@@ -1,5 +1,3 @@
-
-
 INSERT INTO users (name, age) VALUES ('user1', 20);
 INSERT INTO users (name, age) VALUES ('user2', 20);
 INSERT INTO users (name, age) VALUES ('user3', 20);
