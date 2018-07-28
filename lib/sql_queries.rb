@@ -29,7 +29,7 @@ from projects
 inner join pledges
 on projects.id = pledges.project_id
 group by projects.title
-having sum(pledges.amount) - projects.funding_goal > 0  "
+having sum(pledges.amount) - projects.funding_goal > -1  "
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
