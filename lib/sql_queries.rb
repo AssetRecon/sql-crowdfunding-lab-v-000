@@ -15,11 +15,11 @@ group by projects.title"
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
-"select user.name, user.age, sum(pledges.amount)
+"select users.name, users.age, sum(pledges.amount)
 from users
 inner join pledges
 on user.id = pledges.id
-group by user.name
+group by users.name
 "
 end
 
