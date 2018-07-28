@@ -30,5 +30,3 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('eighth', 'fun', 20, 'Jan', 'Dec');
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('ninth', 'fun', 10, 'Jan', 'Dec');
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('tenth', 'fun', 20, 'Jan', 'Dec');
-
-INSERT INTO pledges () VALUES ();
