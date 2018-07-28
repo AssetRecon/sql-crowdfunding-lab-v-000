@@ -18,3 +18,17 @@ INSERT INTO users (name, age) VALUES ('user17', 20);
 INSERT INTO users (name, age) VALUES ('user18', 20);
 INSERT INTO users (name, age) VALUES ('user19', 20);
 INSERT INTO users (name, age) VALUES ('user20', 20);
+
+
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('first', 'fun', 30, 'Jan', 'Dec');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('second', 'fun', 10, 'Jan', 'Dec');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('third', 'fun', 10, 'Jan', 'Dec');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('fourth', 'fun', 50, 'Jan', 'Dec');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('fith', 'fun', 10, 'Jan', 'Dec');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('sixth', 'fun', 20, 'Jan', 'Dec');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('seventh', 'fun', 10, 'Jan', 'Dec');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('eighth', 'fun', 20, 'Jan', 'Dec');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('ninth', 'fun', 10, 'Jan', 'Dec');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ('tenth', 'fun', 20, 'Jan', 'Dec');
+
+INSERT INTO pledges () VALUES ();
