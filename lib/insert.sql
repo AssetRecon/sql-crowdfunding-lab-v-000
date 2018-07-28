@@ -9,26 +9,26 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("ninth", "fun", 10, "Jan", "Dec");
 INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("tenth", "fun", 20, "Jan", "Dec");
 
-INSERT INTO users (name, age) VALUES ("user1", 20);
-INSERT INTO users (name, age) VALUES ("user2", 20);
-INSERT INTO users (name, age) VALUES ("user3", 20);
-INSERT INTO users (name, age) VALUES ("user4", 20);
-INSERT INTO users (name, age) VALUES ("user5", 20);
-INSERT INTO users (name, age) VALUES ("user6", 20);
-INSERT INTO users (name, age) VALUES ("user7", 20);
-INSERT INTO users (name, age) VALUES ("user8", 20);
-INSERT INTO users (name, age) VALUES ("user9", 20);
-INSERT INTO users (name, age) VALUES ("user10", 20);
-INSERT INTO users (name, age) VALUES ("user11", 20);
-INSERT INTO users (name, age) VALUES ("user12", 20);
-INSERT INTO users (name, age) VALUES ("user13", 20);
-INSERT INTO users (name, age) VALUES ("user14", 20);
-INSERT INTO users (name, age) VALUES ("user15", 20);
-INSERT INTO users (name, age) VALUES ("user16", 20);
-INSERT INTO users (name, age) VALUES ("user17", 20);
-INSERT INTO users (name, age) VALUES ("user18", 20);
-INSERT INTO users (name, age) VALUES ("user19", 20);
-INSERT INTO users (name, age) VALUES ("user20", 20);
+INSERT INTO users (name, age) VALUES ('user1', 20);
+INSERT INTO users (name, age) VALUES ('user2', 20);
+INSERT INTO users (name, age) VALUES ('user3', 20);
+INSERT INTO users (name, age) VALUES ('user4', 20);
+INSERT INTO users (name, age) VALUES ('user5', 20);
+INSERT INTO users (name, age) VALUES ('user6', 20);
+INSERT INTO users (name, age) VALUES ('user7', 20);
+INSERT INTO users (name, age) VALUES ('user8', 20);
+INSERT INTO users (name, age) VALUES ('user9', 20);
+INSERT INTO users (name, age) VALUES ('user10', 20);
+INSERT INTO users (name, age) VALUES ('user11', 20);
+INSERT INTO users (name, age) VALUES ('user12', 20);
+INSERT INTO users (name, age) VALUES ('user13', 20);
+INSERT INTO users (name, age) VALUES ('user14', 20);
+INSERT INTO users (name, age) VALUES ('user15', 20);
+INSERT INTO users (name, age) VALUES ('user16', 20);
+INSERT INTO users (name, age) VALUES ('user17', 20);
+INSERT INTO users (name, age) VALUES ('user18', 20);
+INSERT INTO users (name, age) VALUES ('user19', 20);
+INSERT INTO users (name, age) VALUES ('user20', 20);
 
 
 INSERT INTO pledges () VALUES ();
